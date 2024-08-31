@@ -1,4 +1,12 @@
-﻿
+
+## Shell.IconExtractor
+Библиотека для экспорта иконок из приложений, файлов и прочего...
+
+## Оишбки
+Никогда не проверяйте на Ярлыках!
+
+Example:
+```C#
 using Shell.IconExtractor;
 using Shell.IconExtractor.Enumes;
 using Shell.IconExtractor.Strucrure;
@@ -25,4 +33,4 @@ using (IcoExtractor extr = new IcoExtractor(opt))
         Console.WriteLine("Error!");
     }
 }
-
+```
