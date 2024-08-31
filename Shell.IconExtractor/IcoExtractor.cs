@@ -98,6 +98,7 @@ namespace Shell.IconExtractor
 
         public void Dispose()
         {
+            CloneIcon?.Dispose();
             fileInfo.Dispose();
             Dispose(disposing: true);
             GC.SuppressFinalize(this);

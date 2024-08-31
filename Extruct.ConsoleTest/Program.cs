@@ -12,15 +12,21 @@ IcoExtractorOptions opt = new IcoExtractorOptions()
     state = ItemState.Undefined,
 };
 string str_newfilename = "test.png";
+
 using (IcoExtractor extr = new IcoExtractor(opt))
 {
+
     if (extr.SaveToFile(str_newfilename))
     {
+        Console.WriteLine(extr.GetIcon?.Size.ToString());
         Console.WriteLine("Курто!");
     }
     else
     {
         Console.WriteLine("Error!");
     }
+
+
+
 }
 
