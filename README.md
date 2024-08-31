@@ -5,7 +5,11 @@
 ## Оишбки
 Никогда не проверяйте на Ярлыках!
 
-## Build and Include 
+## Build and Include
+1. Clone github project 
+2. Open in Visual Studio 2022+
+3. Build console application
+
 При сборек укажите тип проекта 
 ```xaml
 <TargetFramework>net8.0-windows</TargetFramework>
