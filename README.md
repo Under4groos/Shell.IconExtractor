@@ -5,6 +5,13 @@
 ## Оишбки
 Никогда не проверяйте на Ярлыках!
 
+## Build and Include 
+При сборек укажите тип проекта 
+```xaml
+<TargetFramework>net8.0-windows</TargetFramework>
+```
+
+
 Example:
 ```C#
 using Shell.IconExtractor;
